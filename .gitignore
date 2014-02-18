@@ -1,0 +1,6 @@
+.R*
+*.so
+*.o
+*.dll
+*.Rproj
+*.sublime*
