@@ -1,6 +1,6 @@
 #' Computes the number of terminal window columns.
 #'
-#' @paramt    set_option    whether to automatically set the R terminal width to the system terminal number of columns [default TRUE]
+#' @param     set_option    whether to automatically set the R terminal width to the system terminal number of columns [default TRUE]
 #' @return    Number of terminal window columns
 #' @export
 ncols <- function(set_option = TRUE) {

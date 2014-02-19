@@ -14,7 +14,7 @@ NULL
 .onLoad <- function(libname, pkgname) {
   ops <- options()
   hrr_ops <- list(
-    hrr.symbol = '#',
+    hrr.symbol = '#'
   )
   to_set <- !(names(hrr_ops) %in% names(ops))
   if (any(to_set)) options(hrr_ops[to_set])
