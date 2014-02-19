@@ -1,12 +1,19 @@
 #' Print an horizontal rule.
 #'
+#' If nothing is passed to it, this function prints the default character (see \code{hrr.symbol}) till the end of your current terminal window.
 #'
-#'
-#' @param       ...         ...
+#' @param       ... 		Symbols that compose the horizontal rule
 #' @return      A list (invisibly)
+#' @examples
+#' hr()
+#' hr('*')
+#' hr('-', '#', '-')
 #' @export
 hr <- function(...) {
   symbols <- list(...)
+  if (length(symbols) == 0) {
+  	symbols <- list(getOption('hrr.symbol'))
+  }
   ncols <- ncols()
   invisible(sapply(symbols, function(symbol) {
     repeat_count <- as.integer(ceiling(as.double(ncols) / nchar(symbol)))
