@@ -1,5 +1,5 @@
-#' hrr
+#' hrr provides a function to compose and print beautiful horizontal rules.
 #'
-#' @name hrr
 #' @docType package
+#' @name hrr
 NULL
