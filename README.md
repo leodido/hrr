@@ -62,3 +62,7 @@ _TODO_
 ## Requirements
 
 The only requirements are the R language (tested in version 3.0.2) and `devtools` package (unless you want to install `hrr` from source).
+
+## License
+
+This package is released under the terms of the [MIT license](http://opensource.org/licenses/mit-license.html).
