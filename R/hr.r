@@ -1,5 +1,6 @@
-#' Print an horizontal rule.
+#' Prints an horizontal rule.
 #'
+#' This function, given a list of symbols, composes with them an horizontal rule that fits the current with of the terminal window.
 #' If nothing is passed to it, this function prints the default character (see \code{hrr.symbol}) till the end of your current terminal window.
 #'
 #' @param       ... 		Symbols that compose the horizontal rule

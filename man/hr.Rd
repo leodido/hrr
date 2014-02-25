@@ -1,6 +1,6 @@
 \name{hr}
 \alias{hr}
-\title{Print an horizontal rule.}
+\title{Prints an horizontal rule.}
 \usage{
 hr(...)
 }
@@ -11,9 +11,11 @@ hr(...)
 A list (invisibly)
 }
 \description{
-If nothing is passed to it, this function prints the
-default character (see \code{hrr.symbol}) till the end of
-your current terminal window.
+This function, given a list of symbols, composes with them
+an horizontal rule that fits the current with of the
+terminal window. If nothing is passed to it, this function
+prints the default character (see \code{hrr.symbol}) till
+the end of your current terminal window.
 }
 \examples{
 hr()
