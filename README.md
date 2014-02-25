@@ -1,6 +1,12 @@
 # hrr
 
-Horizontal rule for R language
+Horizontal rule for R language.
+
+## Why?
+
+Because the horizontal rules are the easiest way to split your output into blocks.
+
+_Inspired by [hr for bash](https://github.com/LuRsT/hr)_.
 
 ## Installation
 
