@@ -5,8 +5,7 @@
 \alias{hrr-package}
 \title{hrr provides a simple function, \code{\link{hr}}, to compose and print beautiful horizontal rules.}
 \description{
-hrr provides a simple function, \code{\link{hr}}, to
-compose and print beautiful horizontal rules.
+hrr provides a simple function, \code{\link{hr}}, to compose and print beautiful horizontal rules.
 }
 \section{Package options}{
   It uses the following \code{\link{options}} to configure

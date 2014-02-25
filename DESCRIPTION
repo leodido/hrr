@@ -8,4 +8,4 @@ Depends:
 License: MIT
 Suggests:
     devtools
-Roxygen: list(wrap = TRUE)
+Roxygen: list(wrap = FALSE)

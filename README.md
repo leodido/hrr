@@ -10,7 +10,13 @@ _Inspired by [hr for bash](https://github.com/LuRsT/hr)_.
 
 ## Installation
 
-Because `hrr` is not yet available on CRAN you can install it via `devtools` package ([link](https://github.com/hadley/devtools)).
+You can install `hrr` via CRAN.
+
+```r
+install.packages('hrr')
+```
+
+Otherwise, if you prefer, you can install it via `devtools` package ([link](https://github.com/hadley/devtools)).
 
 ```r
 library(devtools)
@@ -61,7 +67,7 @@ _TODO_
 
 ## Requirements
 
-The only requirements are the R language (tested in version 3.0.2) and `devtools` package (unless you want to install `hrr` from source).
+The only requirements are the R language (tested in version 3.0.2).
 
 ## License
 

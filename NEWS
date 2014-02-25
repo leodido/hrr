@@ -1,7 +1,10 @@
-hrr
-===
+Version 1.0.1
+------------------------------------------------------------------------------
 
-## Release 1.0
+* Documentation improved for CRAN release
 
-* horizontal rule function
-* function to detect the number of terminal window columns
+Version 1.0
+------------------------------------------------------------------------------
+
+* `hr` function to create and print horizontal rules
+* `ncols` function to detect the number of terminal window columns and optionally set the `width` option
