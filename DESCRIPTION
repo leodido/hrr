@@ -1,11 +1,14 @@
 Package: hrr
 Title: Horizontal rule for R language.
-Description: Print completely customisable horizontal rules in your R scripts.
 Version: 1.0.1
-Authors@R: 'Leonardo Di Donato <leodidonato@gmail.com> [aut,cre]'
+Author: Leonardo Di Donato <leodidonato@gmail.com>
+Mantainer: Leonardo Di Donato <leodidonato@gmail.com>
+Description: Print completely customisable horizontal rules in your R scripts.
 Depends:
     R (>= 3.0.2)
 License: MIT + file LICENSE
 Suggests:
     devtools
+URL: https://github.com/leodido/hrr
 Roxygen: list(wrap = FALSE)
+BugReports: https://github.com/leodido/hrr/issues
