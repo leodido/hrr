@@ -16,6 +16,7 @@ ncols <- function(set_option = TRUE) {
     } else {
       ncol <- as.integer(system('tput cols', ignore.stdout = TRUE))
     }
+    cat(sprintf('ncol: %s\n', ncol))
     if (set_option) {
       options(width = ncol)
     }
