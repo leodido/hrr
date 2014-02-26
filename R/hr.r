@@ -3,10 +3,10 @@
 #'
 #' @description
 #' \code{hr}, given a list of symbols, composes with them an horizontal rule that fits the current width of the terminal window.
-#' If nothing is passed to it, this function prints the default character (see \code{hrr.symbol}) till the end of your current terminal window.
+#' If nothing is passed to it, this function prints the default character (see \code{hrr.symbol}) option) till the end of your current terminal window.
 #'
 #' @param       ... 		Symbols that compose the horizontal rule
-#' @return      A list (invisibly)
+#' @return      A list (invisibly).
 #' @examples
 #' hr()
 #' hr('*')

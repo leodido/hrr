@@ -2,11 +2,11 @@
 #' Computes the maximum width of terminal window.
 #'
 #' @description
-#' \code{\link{ncols}} detects the maximum number of the columns of the current terminal window.
+#' \code{\link{ncols}} detects the maximum number of columns of the current terminal window.
 #' Note that columns are normally the same as characters except in CJK languages.
 #'
-#' @param     set_option    whether to automatically set the R terminal width to the system terminal maximum number of columns [default TRUE]
-#' @return    The number of terminal window columns
+#' @param     set_option    whether to automatically set the R terminal width to the system terminal maximum number of columns [default \code{TRUE}]
+#' @return    The number of terminal window columns.
 #' @export
 ncols <- function(set_option = TRUE) {
   sysname <- Sys.info()['sysname']

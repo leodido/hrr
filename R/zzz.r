@@ -2,9 +2,9 @@
 #'
 #' @section Package options:
 #'
-#' It uses the following \code{\link{options}} to configure behaviour:
+#' It uses the following \code{options} to configure behaviour:
 #' \itemize{
-#'   \item \code{hrr.symbol}: default character symbol
+#'   \item \code{hrr.symbol}: default character symbol used by \code{\link{hr}} function
 #' }
 #' @docType package
 #' @name hrr
