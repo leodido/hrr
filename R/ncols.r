@@ -14,7 +14,7 @@ ncols <- function(set_option = TRUE) {
     if ((ncol <- Sys.getenv('COLUMNS')) != '') {
       ncol <- as.integer(ncol)
     } else {
-      ncol <- system('tput cols')
+      ncol <- as.integer(system('tput cols', ignore.stdout = TRUE))
     }
     if (set_option) {
       options(width = ncol)

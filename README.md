@@ -22,7 +22,7 @@ Otherwise, if you prefer, you can install it via `devtools` package ([link](http
 
 ```r
 library(devtools)
-install_github('hrr', user = 'leodido')
+install_github('hrr', username = 'leodido')
 ```
 
 ## How to use it?
