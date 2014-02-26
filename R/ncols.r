@@ -14,9 +14,11 @@ ncols <- function(set_option = TRUE) {
     if ((ncol <- Sys.getenv('COLUMNS')) != '') {
       ncol <- as.integer(ncol)
     } else {
-      ncol <- as.integer(system('tput cols', ignore.stdout = TRUE))
+      output <- tryCatch(system('tput cols', intern = TRUE), error = I)
+      if (length(output) > 0) {
+        ncol <- as.integer(sub('([0-9]+)', '\\1', output[1]))
+      }
     }
-    cat(sprintf('ncol: %s\n', ncol))
     if (set_option) {
       options(width = ncol)
     }
