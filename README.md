@@ -12,8 +12,10 @@ _Inspired by [hr for bash](https://github.com/LuRsT/hr)_.
 
 You can install `hrr` via CRAN.
 
+E.g.,
+
 ```r
-install.packages('hrr')
+install.packages('hrr', repos='http://cran.r-project.org')
 ```
 
 Otherwise, if you prefer, you can install it via `devtools` package ([link](https://github.com/hadley/devtools)).
