@@ -1,6 +1,12 @@
+Version 1.1.0
+------------------------------------------------------------------------------
+* `ncols` cross-platform functioning improved
+* package correctly works on Darwin, Linux, Windows platforms (tested on .., respectively)
+* package correctly works on RStudio IDE
+
+
 Version 1.0.1
 ------------------------------------------------------------------------------
-
 * Documentation improved for CRAN release
 
 Version 1.0
