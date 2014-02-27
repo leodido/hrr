@@ -26,6 +26,8 @@ ncols <- function(set_option = TRUE) {
     }
     rm(output)
     return(ncol)
+  } else if (sysname == 'Windows') {
+    return(getOption('width') - 1)
   }
   # fallback, should work also for Windows and various IDE (e.g. RStudio)
   return(getOption('width'))

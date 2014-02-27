@@ -1,9 +1,8 @@
 Version 1.1.0
 ------------------------------------------------------------------------------
 * `ncols` cross-platform functioning improved
-* package correctly works on Darwin, Linux, Windows platforms (tested on .., respectively)
-* package correctly works on RStudio IDE
-
+* package tested on platforms "x86_64-pc-linux-gnu", "x86_64-apple-darwin10.8.0", and "")
+* package correctly works on Darwin, Linux, and Windows platforms
 
 Version 1.0.1
 ------------------------------------------------------------------------------
