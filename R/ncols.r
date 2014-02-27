@@ -11,10 +11,11 @@
 ncols <- function(set_option = TRUE) {
   sysname <- Sys.info()['sysname']
   if ((ncol <- Sys.getenv('COLUMNS')) != '') {
-      ncol <- as.integer(ncol)
-      if (set_option) {
-        options(width = ncol)
-      }
+    ncol <- as.integer(ncol)
+    if (set_option) {
+      options(width = ncol)
+    }
+    return(ncol)
   } else if ((sysname == 'Darwin' || sysname == 'Linux') && Sys.getenv('TERM') != '') {
     output <- tryCatch(system('tput cols', intern = TRUE), error = I)
     if (length(output) > 0) {
@@ -24,9 +25,8 @@ ncols <- function(set_option = TRUE) {
       }
     }
     rm(output)
-  } else { # fallback, should work also for Windows and various IDE (e.g. RStudio)
-    ncol <- getOption('width')
+    return(ncol)
   }
-
-  ncol
+  # fallback, should work also for Windows and various IDE (e.g. RStudio)
+  return(getOption('width'))
 }
