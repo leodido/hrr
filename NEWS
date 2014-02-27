@@ -1,8 +1,7 @@
 Version 1.1.0
 ------------------------------------------------------------------------------
 * `ncols` cross-platform functioning improved
-* package tested on platforms "x86_64-pc-linux-gnu", "x86_64-apple-darwin10.8.0", and "")
-* package correctly works on Darwin, Linux, and Windows platforms
+* works on platforms "x86_64-pc-linux-gnu", "x86_64-apple-darwin10.8.0", and "i386-w64-mingw32" (i.e., darwin, linux, and windows)
 
 Version 1.0.1
 ------------------------------------------------------------------------------
