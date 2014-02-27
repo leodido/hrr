@@ -1,9 +1,9 @@
 Package: hrr
 Title: Horizontal rule for R language.
-Version: 1.0.1
+Version: 1.1.0
 Author: Leonardo Di Donato <leodidonato@gmail.com>
 Maintainer: Leonardo Di Donato <leodidonato@gmail.com>
-Description: Print completely customizable horizontal rules in your R scripts.
+Description: Print beautiful horizontal rules in your R scripts.
 Depends:
     R (>= 3.0.2)
 License: MIT + file LICENSE
