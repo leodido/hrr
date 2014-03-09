@@ -69,7 +69,7 @@ _TODO_
 
 ## Requirements
 
-The only requirement is the R language (tested in version 3.0.2).
+The only requirement is the R language (tested in version 3.0.*).
 
 ## License
 
