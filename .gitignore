@@ -4,3 +4,4 @@
 *.dll
 *.Rproj
 *.sublime*
+.Rproj.user
