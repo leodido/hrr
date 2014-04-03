@@ -1,4 +1,5 @@
-# hrr
+ hrr [![Analytics](https://ga-beacon.appspot.com/UA-49657176-1/hrr)](https://github.com/igrigorik/ga-beacon)
+ ======
 
 Horizontal rule for R language.
 
