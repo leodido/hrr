@@ -1,7 +1,7 @@
- hrr [![Analytics](https://ga-beacon.appspot.com/UA-49657176-1/hrr)](https://github.com/igrigorik/ga-beacon)
+hrr
 ======
 
-Horizontal rule for R language.
+> Horizontal rule for R language.
 
 ## Why?
 
@@ -50,7 +50,7 @@ hr('*')
 ************************************ ...
 ```
 
-You can also make _beautiful ASCII patterns_.
+You can also create beautiful ASCII patterns.
 
 ```r
 hr('-', '#', '-')
@@ -75,3 +75,7 @@ The only requirement is the R language (tested in version 3.0.*).
 ## License
 
 This package is released under the terms of the [MIT license](http://opensource.org/licenses/mit-license.html).
+
+---
+
+[![Analytics](https://ga-beacon.appspot.com/UA-49657176-1/hrr?flat)](https://github.com/igrigorik/ga-beacon)

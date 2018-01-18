@@ -17,8 +17,8 @@ ncols <- function(set_option = TRUE) {
     }
     return(ncol)
   } else if ((sysname == 'Darwin' || sysname == 'Linux') && Sys.getenv('TERM') != '') {
-    output <- tryCatch(system('tput cols', intern = TRUE), error = I)
-    if (length(output) > 0) {
+    output <- tryCatch(system2("tput", "cols", stdout = TRUE, stderr = TRUE))
+    if (is.null(attr(output, "status"))) {
       ncol <- as.integer(sub('([0-9]+)', '\\1', output[1]))
       if (is.finite(ncol) && ncol > 0 && set_option) {
         options(width = ncol)
