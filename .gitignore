@@ -2,6 +2,7 @@
 # session data files
 # editors files
 *.R*
+!.Rbuildignore
 
 # example code in package build process
 *-Ex.R

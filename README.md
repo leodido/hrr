@@ -7,7 +7,7 @@ Horizontal rule for R language.
 
 Because the horizontal rules are the easiest way to split your output into blocks.
 
-_Inspired by [hr for bash](https://github.com/LuRsT/hr)_.
+Inspired by [hr for bash](https://github.com/LuRsT/hr).
 
 ## Installation
 
@@ -66,7 +66,7 @@ hr('-#-', '-', '-#-')
 
 ### From the command-line:
 
-_TODO_
+TBD.
 
 ## Requirements
 
