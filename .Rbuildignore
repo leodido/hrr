@@ -3,3 +3,4 @@
 ^NEWS.md$
 ^README.md$
 ^.travis.yml$
+^appveyor\.yml$

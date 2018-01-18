@@ -1,8 +1,24 @@
 language: r
-r:
-  - oldrel
-  - release
-  - devel
-cache: packages
-sudo: false
+dist: trusty
+sudo: required
 warning_are_errors: true
+
+matrix:
+  include:
+    - os: linux
+      r: 3.0
+    - os: linux
+      r: 3.1
+    - os: linux
+      r: 3.2
+    - os: linux
+      r: oldrel
+    - os: linux
+      r: release
+#   - os: linux
+#     r: devel
+      env: R_CODECOV=true
+    - os: osx
+      osx_image: xcode8.3
+#   - os: osx
+#     osx_image: xcode7.3
