@@ -1,7 +1,7 @@
-# history files
+# history filesr
 # session data files
 # editors files
-.R*
+*.R*
 
 # example code in package build process
 *-Ex.R
