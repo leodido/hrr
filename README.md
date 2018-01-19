@@ -1,13 +1,12 @@
- hrr [![Analytics](https://ga-beacon.appspot.com/UA-49657176-1/hrr)](https://github.com/igrigorik/ga-beacon)
-======
+[![CRAN](https://img.shields.io/cran/v/hrr.svg?style=for-the-badge)](https://cran.r-project.org/web/packages/hrr/index.html) [![TravisCI Build Status](https://img.shields.io/travis/leodido/hrr/master.svg?style=for-the-badge)](https://travis-ci.org/leodido/go-urn) [![AppVeyor Build Status](https://img.shields.io/appveyor/ci/leodido/hrr/master.svg?style=for-the-badge)](https://ci.appveyor.com/leodido/hrr) [![Coverage](https://img.shields.io/codecov/c/github/leodido/hrr/master.svg?style=for-the-badge)](https://codecov.io/github/leodido/hrr?branch=master)
 
-Horizontal rule for R language.
+> **H**orizontal **r**ule for **R** language.
 
 ## Why?
 
 Because the horizontal rules are the easiest way to split your output into blocks.
 
-_Inspired by [hr for bash](https://github.com/LuRsT/hr)_.
+Inspired by [hr for bash](https://github.com/LuRsT/hr).
 
 ## Installation
 
@@ -50,7 +49,7 @@ hr('*')
 ************************************ ...
 ```
 
-You can also make _beautiful ASCII patterns_.
+You can also create beautiful ASCII patterns.
 
 ```r
 hr('-', '#', '-')
@@ -66,7 +65,7 @@ hr('-#-', '-', '-#-')
 
 ### From the command-line:
 
-_TODO_
+TBD.
 
 ## Requirements
 
@@ -75,3 +74,7 @@ The only requirement is the R language (tested in version 3.0.*).
 ## License
 
 This package is released under the terms of the [MIT license](http://opensource.org/licenses/mit-license.html).
+
+---
+
+[![Analytics](https://ga-beacon.appspot.com/UA-49657176-1/hrr?flat)](https://github.com/igrigorik/ga-beacon)

@@ -1,7 +1,28 @@
-.R*
-*.so
-*.o
-*.dll
-*.Rproj
-*.sublime*
-.Rproj.user
+# history filesr
+# session data files
+# editors files
+*.R*
+!.Rbuildignore
+
+# example code in package build process
+*-Ex.R
+
+# output files from command build
+/*.tar.gz
+
+# output files from command check
+/*.Rcheck/
+
+# vignettes
+vignettes/
+
+# oauth2 token (see httr)
+.httr-oauth
+
+# knitr and r markdown default cache directories
+/*_cache/
+/cache/
+
+# temp files created by R markdown
+*.utf8.md
+*.knit.md
