@@ -10,8 +10,8 @@ r_github_packages:
 
 matrix:
   include:
-   - os: linux
-     r: 3.2
+    - os: linux
+      r: 3.2
     - os: linux
       r: oldrel
     - os: linux
