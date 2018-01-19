@@ -2,8 +2,8 @@ Package: hrr
 Title: Horizontal rule for the R language
 Version: 1.2.0
 Authors@R: c(
-    person("Leonardo", "Di Donato", , "leodidonato@gmail.com", c("aut", "cre")),
-)
+    person("Leonardo", "Di Donato", , "leodidonato@gmail.com", c("aut", "cre"))
+    )
 Maintainer: Leonardo Di Donato <leodidonato@gmail.com>
 Description: Print beautiful horizontal rules in your R scripts.
 Depends:
@@ -11,6 +11,7 @@ Depends:
 License: MIT + file LICENSE
 URL: https://github.com/leodido/hrr
 BugReports: https://github.com/leodido/hrr/issues
-Suggests:
+Suggests: 
     testthat,
-    mockery
+    mockery,
+    covr
