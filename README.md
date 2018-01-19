@@ -1,3 +1,5 @@
+[![TravisCI Build Status](https://img.shields.io/travis/leodido/hrr/master.svg?style=for-the-badge)](https://travis-ci.org/leodido/go-urn) [![AppVeyor Build Status](https://img.shields.io/appveyor/ci/leodido/hrr/master.svg?style=for-the-badge)](https://ci.appveyor.com/leodido/hrr)
+
 hrr
 ======
 

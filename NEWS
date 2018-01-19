@@ -1,3 +1,10 @@
+Version 1.2.0
+* Switch to more portable `system2()`
+* Check exit status of tput command
+* Removing explicit platform checks
+* Improvements to code logic
+* Continuous integration setup
+
 Version 1.1.1
 ------------------------------------------------------------------------------
 * fixed bug #9 - symbols containing only whitespaces and empty strings are now automatically replaced with the default symbol
