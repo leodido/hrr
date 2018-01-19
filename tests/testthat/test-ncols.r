@@ -4,9 +4,11 @@ cols <- Sys.getenv('COLUMNS')
 term <- Sys.getenv('TERM')
 
 test_that('uses COLUMNS env variable when is set (priority)', {
-    Sys.setenv(COLUMNS = 10)
+    Sys.setenv(COLUMNS = 22)
 
-    expect_equal(ncols(), 10)
+    expect_equal(ncols(), 22)
+
+    Sys.setenv(COLUMNS = cols)
 })
 
 test_that('sets width option by default', {
@@ -25,6 +27,9 @@ test_that('uses default value when env variables not set', {
     Sys.setenv(TERM = '')
 
     expect_equal(ncols(), getOption('width'))
+
+    Sys.setenv(COLUMNS = cols)
+    Sys.setenv(TERM = term)
 })
 
 test_that('tries to call tput when COLUMNS env variable not set', {
@@ -42,4 +47,6 @@ test_that('tries to call tput when COLUMNS env variable not set', {
    expect_equal(margs[[2]], 'cols')
    expect_equal(margs$stdout, TRUE)
    expect_equal(margs$stderr, TRUE)
+
+   Sys.setenv(COLUMNS = cols)
 })

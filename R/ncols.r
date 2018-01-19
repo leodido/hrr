@@ -9,11 +9,14 @@
 #' @return    The number of terminal window columns.
 #' @export
 ncols <- function(set_option = TRUE) {
+  sysname <- Sys.info()['sysname']
   # default/fallback
   ncol <- getOption('width')
 
   cols <- Sys.getenv('COLUMNS')
-  if (nzchar(cols)) {
+  if (sysname == 'Windows') {
+    ncol <- getOption('width') - 1
+  } else if (nzchar(cols)) {
     ncol <- as.integer(cols)
   } else if (nzchar(Sys.getenv('TERM'))) {
     output <- tryCatch(system2('tput', 'cols', stdout = TRUE, stderr = TRUE))
