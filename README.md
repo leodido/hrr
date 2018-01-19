@@ -1,9 +1,6 @@
-[![TravisCI Build Status](https://img.shields.io/travis/leodido/hrr/master.svg?style=for-the-badge)](https://travis-ci.org/leodido/go-urn) [![AppVeyor Build Status](https://img.shields.io/appveyor/ci/leodido/hrr/master.svg?style=for-the-badge)](https://ci.appveyor.com/leodido/hrr)
+[![CRAN](https://img.shields.io/cran/v/hrr.svg?style=for-the-badge)](https://cran.r-project.org/web/packages/hrr/index.html) [![TravisCI Build Status](https://img.shields.io/travis/leodido/hrr/master.svg?style=for-the-badge)](https://travis-ci.org/leodido/go-urn) [![AppVeyor Build Status](https://img.shields.io/appveyor/ci/leodido/hrr/master.svg?style=for-the-badge)](https://ci.appveyor.com/leodido/hrr) [![Coverage](https://img.shields.io/codecov/c/github/leodido/hrr/master.svg?style=for-the-badge)](https://codecov.io/github/leodido/hrr?branch=master)
 
-hrr
-======
-
-> Horizontal rule for R language.
+> **H**orizontal **r**ule for **R** language.
 
 ## Why?
 
