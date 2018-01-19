@@ -10,22 +10,14 @@ r_github_packages:
 
 matrix:
   include:
-#   - os: linux
-#     r: 3.0
-#   - os: linux
-#     r: 3.1
-#   - os: linux
-#     r: 3.2
+   - os: linux
+     r: 3.2
     - os: linux
       r: oldrel
     - os: linux
       r: release
-    - os: linux
-      r: devel
     - os: osx
       osx_image: xcode8.3
-#   - os: osx
-#     osx_image: xcode7.3
 
 after_success:
-  - test $TRAVIS_R_VERSION_STRING = 'release' && Rscript -e 'covr::codecov()'
+  - test $TRAVIS_R_VERSION_STRING = 'release' && Rscript -e 'covr::codecov(function_exclusions = "\\.onLoad")'
